@@ -30,7 +30,7 @@ CODE = (environ.get('CODE', 'https://telegra.ph/file/742a11b84ca0689f03102.jpg')
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'inshorturl.com'))
-STREAM_API = (environ.get('STREAM_API', '4025a34bc25a7dab7322809e86b6544734121c55)
+STREAM_API = (environ.get('STREAM_API', '4025a34bc25a7dab7322809e86b6544734121c55'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/wwwmovieslink/7'))
 
 # Admins, Channels & Users
@@ -60,7 +60,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/wwwmovieslink/7') # How t
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'inshorturl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '4025a34bc25a7dab7322809e86b6544734121c55)
+SHORTLINK_API = environ.get('SHORTLINK_API', '4025a34bc25a7dab7322809e86b6544734121c55')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
